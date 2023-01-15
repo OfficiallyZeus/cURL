@@ -45,7 +45,7 @@ https://everything.curl.com
                   user-data = index,
                   "Curl",
                   "Null",
-                  {on ValueChanged at dl:DropdownList do
+                  {on ValueChanged at dl:Markup List do
                       {reveal dl.value
                        case  "文字列" do
                           set params[null.user-data char int] = {dl.name.remove-clone} &  "\'"
