@@ -30,7 +30,7 @@ https://everything.curl.com
                  index:int,
                  Curl:String,
                  params:StringArray
-             }:DropdownList
+                 MarkupList
 
     || ■CURL
     || ■CHAR
